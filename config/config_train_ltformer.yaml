@@ -1,0 +1,22 @@
+paths:
+    log: "runs"
+    train_data: "./data/optical/train/triplets_cut_256_new"
+    output_dir: "./outputs/2024-01-11/13-09-49/"
+
+params:
+    model: "LTFormer"
+    loss_layer: "AdaptativeTripletLoss"
+    # loss_layer: "HardNetLoss"
+
+    nb_epoch: 50
+    lr: 1e-3
+    batch_size: 256
+    image_size: 128
+    margin_value: 1
+    loss_weight: 0.5
+    momentum: 0.9
+    weight_decay: 1e-4
+    checkpoint_freq: 10
+hydra:
+    job:
+        chdir: true

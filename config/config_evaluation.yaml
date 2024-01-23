@@ -1,0 +1,12 @@
+paths:
+    log: "runs-epochs(400)-lr(0.001)-256"
+    validation_data: "./data/optical/test_cut/"
+params:
+        # model_name: "PVTv2"
+        # weights_path: "./models/PVTv2_99.pth"
+        model_name: "HardNet128"
+        weights_path: "./models/HardNet128.pth"
+        image_size: 384
+        patch_size: 192
+        matching_threshold: 0.0005
+        distance_matching_threshold: 5

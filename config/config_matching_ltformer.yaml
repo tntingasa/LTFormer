@@ -1,0 +1,14 @@
+paths:
+    log: "runs"
+    demo_sequence_data: "./data/optical/test_cut/"
+params:
+        model_name: "LTFormer"
+        weights_path: "./models/LTFormer.pth"
+        image_size: 128
+        patch_size: 64
+        matching_threshold: 0.5
+        distance_matching_threshold: 5
+
+hydra:
+    job:
+        chdir: true
