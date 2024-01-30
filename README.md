@@ -21,12 +21,12 @@ python run_training_ltformer.py
 python run_training_ltformer.py
 ```
 ## Testing and visualisation
-Download [LTFormer](), and put it in a folder model/.
+The weights have been uploaded to the folder model/.
 ```shell script
 python run_matching_ltformer.py
 ```
 ## Comparison to state-of-the-art handcrafted descriptors
 ![img](https://github.com/Tntttt/LTFormer/blob/main/pic/compare.png)
 ## Comparison to state-of-the-art learning feature descriptors
-![img](https://github.com/Tntttt/LTFormer/blob/main/pic/compare.png)
+![img](https://github.com/Tntttt/LTFormer/blob/main/pic/compare_2.png)
 
