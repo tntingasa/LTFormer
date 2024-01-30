@@ -12,8 +12,21 @@ conda activate LTFormer
 1、Download from [SAM](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
 2、Strip visible and infrared channel from optical images.
 3、Crop RGB and near-infrared images size of 926 × 926.
-
+4、Generation of triplex datasets
+```shell script
+python run_training_ltformer.py
+```
 ## Training
 ```shell script
-python 
+python run_training_ltformer.py
 ```
+## Testing and visualisation
+Download [LTFormer](), and put it in a folder model/.
+```shell script
+python run_matching_ltformer.py
+```
+## Comparison to state-of-the-art handcrafted descriptors
+![img](https://github.com/Tntttt/LTFormer/blob/main/pic/compare.png)
+## Comparison to state-of-the-art learning feature descriptors
+![img](https://github.com/Tntttt/LTFormer/blob/main/pic/compare.png)
+
