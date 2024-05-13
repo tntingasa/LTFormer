@@ -8,7 +8,7 @@ Overview of the matching algorithm framework. The feature point detector is set 
 To simplify the reproduction steps, we only need to install
 ```shell script
 conda env create -f environment.yml
-conda activate LTFormer
+conda activate imgMatch
 ```
 ## Dataset
 1、Download from [WHU-OPT-SAR](https://github.com/AmberHen/WHU-OPT-SAR-dataset)  
